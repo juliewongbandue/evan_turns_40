@@ -3,43 +3,91 @@
 	// import { browser } from '$app/environment';
 </script>
 
+<div class="wrapper">
 <nav>
-  <a href='/'>home</a>
-  <a href='/memorial-info'>memorial info</a>
-  <a href='/memories'>memories</a>
-  <a href='/give'>give</a>
+  <a href='/' class="hover-underline-animation">Home</a>
+  <a href='/memorial-info' class="hover-underline-animation">Memorial Info</a>
+  <a href='/memories' class="hover-underline-animation">Memories</a>
+  <a href='/give' class="hover-underline-animation">Give</a>
 </nav>
 <main>
 	<slot />
 </main>
 
 <footer>
-	<p>Made with <span>&hearts;</span> by his favorite daughter &copy;2025 </p>
+	Made with <span>&hearts;</span> by his favorite daughter &copy;2025
 </footer>
+</div>
 
 <style>
+  .wrapper {
+    min-height: 100%;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+  }
 	main {
 		padding: var(--space-4);
 	}
+
 	nav {
 		padding: var(--space-3);
 		transition: var(--transition);
 		border-bottom: var(--border-divider);
 		display: flex;
-		justify-content: flex-end;
 		align-items: center;
 		gap: var(--space-2);
 		font-size: var(--font-size-3);
 		font-family: var(--font-family-mono);
 		color: var(--primary);
 	}
-	footer {
-		color: var(--primary);
-		font-family: var(--font-family-mono);
-		font-size: var(--font-size-1);
-		padding: var(--space-2) var(--space-4);
-	}
+  nav a {
+    text-decoration: none;
+    color: var(--primary);
+    font-weight: 500;
+    display: block;
+    font-size: var(--font-size-2);
+  }
+  .hover-underline-animation {
+    display: inline-block;
+    position: relative;
+    border-radius: 3px;
+  }
 
+.hover-underline-animation::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: var(--gray-8);
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.hover-underline-animation:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.hover-underline-animation:focus-visible {
+  outline: 2px solid var(--gray-6);
+  outline-offset: 2px;
+}
+
+.hover-underline-animation:focus-visible::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+	footer {
+		color: var(--gray-4);
+		font-family: var(--font-family-mono);
+		font-size: 0.5rem;
+		padding: var(--space-2) var(--space-4);
+    letter-spacing: var(--letter-spacing-tracked);
+	}
 	footer span {
 		color: var(--red-7);
 	}

@@ -1,3 +1,12 @@
 <h1>Memories</h1>
 
-If you have any memories, stories, and/or photos to share, please email them to me at: thinkingofbue@gmail.com
+<p class="body article-small">If you have any more memories you'd like to share with us, we would love to know them, and what he meant to you. Please email any stories, and/or photos to us at: <a class='email' href="mailto:thinkingofbue@gmail.com?subject=Thinking of Bue">thinkingofbue@gmail.com.</a></p>
+
+<style>
+.email {
+  font-family: var(--font-family-mono);
+  font-weight: 600;
+  color: var(--primary);
+  text-decoration: none;
+}
+</style>
