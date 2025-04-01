@@ -25,12 +25,12 @@
     display: grid;
     grid-template-rows: auto 1fr auto;
   }
-	main {
-		padding: var(--space-4);
-	}
 
+  main {
+    padding: var(--space-4);
+  }
 	nav {
-		padding: var(--space-3);
+		padding: var(--space-3) var(--space-4);
 		transition: var(--transition);
 		border-bottom: var(--border-divider);
 		display: flex;
@@ -39,6 +39,7 @@
 		font-size: var(--font-size-3);
 		font-family: var(--font-family-mono);
 		color: var(--primary);
+    background-color: var(--nav-background);
 	}
   nav a {
     text-decoration: none;
@@ -61,7 +62,7 @@
   height: 2px;
   bottom: 0;
   left: 0;
-  background-color: var(--gray-8);
+  background-color: var(--primary);
   transform-origin: bottom right;
   transition: transform 0.25s ease-out;
 }
