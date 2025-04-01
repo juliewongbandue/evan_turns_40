@@ -1,7 +1,7 @@
 <h1>Give</h1>
 
 <article class="article-small">
-<p class="body">In lieu of flowers or other gifts, please feel free to contribute to our impending hospital bill, memorial event costs or next year's pilgrimage to Thailand, where we will distribute his ashes in accordance with his wishes. Zelle to my mom is preferred, however, if you do not have her number, please do not hesitate to request her number and information from me. We have also created a GoFundMe as an option. </p>
+<p class="body">In lieu of flowers or other gifts, please feel free to contribute to our impending hospital bill, memorial event costs or next year's pilgrimage to Thailand, where we will distribute his ashes in accordance with his wishes. Zelle to my mom is preferred, however, if you do not have her number, please do not hesitate to request her number and information from one of us or email <a class='email' href="mailto:thinkingofbue@gmail.com?subject=Thinking of Bue">thinkingofbue@gmail.com</a>. We have also created a GoFundMe as an option. </p>
 
 <div class='button-layout'>
 <a class="button gofundme" href="https://www.gofundme.com/f/thinking-of-bue">GoFundMe</a>

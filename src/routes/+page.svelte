@@ -11,6 +11,8 @@
 
 <p>His death leaves us missing his laugh, his playful sense of humor, and oh so many good meals. Fortunately, he's left behind his familial dedication with Mom, his snobby taste in food with me, and an incredible, like just perfect, head of hair with Jamie. And for our family as a whole, he's imparted one massive dollhouse we don't know what to do with, but you'll never be able to take from us in a million years. Love you, Dad.</p>
 
+<p class="signature">Julie Wongbandue</p>
+
 <div class="image-wrapper">
 <img src='/assets/101.jpeg' alt='dad building a doll house'/>
 <img src='/assets/100.jpeg' alt='me and dad in the dollhouse'/>
@@ -31,5 +33,13 @@
   .image-wrapper img {
     display: block;
     max-width: 100%;
+  }
+
+  .signature {
+    font-family: var(--font-family-body);
+    font-style: italic;
+    color: var(--gray-4);
+    font-size: var(--font-size-3);
+    padding-top: var(--space-4);
   }
 </style>
