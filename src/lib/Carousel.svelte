@@ -1,7 +1,6 @@
 <script>
   let currentIndex = 0;
-
-	let images = Array.from({length: 28}).map((image, i) => `/assets/${i + 1}.jpeg`)
+  let images = Array.from({length: 33}).map((_image, i) => `/assets/${i + 1}.jpeg`);
 
   function goToNext() {
     currentIndex = (currentIndex + 1) % images.length;
@@ -10,27 +9,30 @@
   function goToPrevious() {
     currentIndex = (currentIndex - 1 + images.length) % images.length;
   }
-
 </script>
 
 <style>
   .carousel {
     position: relative;
-    width: 100%;
     max-width: 600px;
-    margin: auto;
     overflow: hidden;
+		height: 500px;
+		display: block;
   }
 
   .carousel-images {
     display: flex;
     transition: transform 0.5s ease-in-out;
+		height: 100%;
   }
 
-  .carousel-images img {
-    width: 100%;
-    max-width: 100%;
-    display: block;
+  .carousel-images div {
+    flex: 0 0 100%; /* Make sure each div takes 100% of the carousel width */
+    height: 100%; /* Make sure they fill the container height */
+    background-size: contain;
+		background-repeat: no-repeat;
+    background-position: center;
+		border-radius: var(--border-radius-3);
   }
 
   .button {
@@ -40,9 +42,10 @@
     background: rgba(0, 0, 0, 0.5);
     color: white;
     border: none;
-    padding: 10px;
+    padding: var(--space-3);
     cursor: pointer;
-    font-size: 18px;
+    font-size: var(--font-size-5);
+		border-radius: var(--border-radius-2)
   }
 
   .prev {
@@ -57,7 +60,7 @@
 <div class="carousel">
   <div class="carousel-images" style="transform: translateX(-{currentIndex * 100}%)">
     {#each images as image}
-      <img src={image} alt="carousel image" />
+      <div style="background-image: url({image})"></div>
     {/each}
   </div>
 

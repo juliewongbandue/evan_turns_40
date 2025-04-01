@@ -1,6 +1,8 @@
 <script lang="ts">
-	// import { page } from '$app/state';
-	// import { browser } from '$app/environment';
+  import { page } from '$app/state';
+  import { browser } from '$app/environment';
+  import {fade} from 'svelte/transition'
+  export let data
 </script>
 
 <div class="wrapper">
@@ -10,8 +12,14 @@
   <a href='/memories' class="hover-underline-animation">Memories</a>
   <a href='/give' class="hover-underline-animation">Give</a>
 </nav>
-<main>
+<main transition:fade>
+  {#key page.url}
+  <div 
+    in:fade={{ duration: 500 }}
+    out:fade={{ duration: 50}}>
 	<slot />
+  </div>
+  {/key}
 </main>
 
 <footer>
@@ -29,6 +37,7 @@
   main {
     padding: var(--space-4);
   }
+  
 	nav {
 		padding: var(--space-3) var(--space-4);
 		transition: var(--transition);
@@ -40,6 +49,9 @@
 		font-family: var(--font-family-mono);
 		color: var(--primary);
     background-color: var(--nav-background);
+    text-align: center;
+    position: sticky;
+    top: 0;
 	}
   nav a {
     text-decoration: none;
@@ -47,6 +59,14 @@
     font-weight: 500;
     display: block;
     font-size: var(--font-size-2);
+    font-family: var(--font-family-body);
+  }
+
+  @media (min-width:320px)  { 
+    /* smartphones, iPhone, portrait 480x320 phones */
+    nav a {
+      font-size: var(--font-size-3);
+    }
   }
   .hover-underline-animation {
     display: inline-block;
