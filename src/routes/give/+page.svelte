@@ -1,0 +1,2 @@
+<h1>Give</h1>
+In lieu of flowers, or other gifts, feel free to contribute our memorial event costs or next year's pilgrimage to Thailand, where we will distribute his ashes in accordance with his wishes. 
