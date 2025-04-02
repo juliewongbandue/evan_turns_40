@@ -8,7 +8,7 @@
 <div class="wrapper">
 <nav>
   <a href='/' class="hover-underline-animation">Home</a>
-  <a href='/memorial-info' class="hover-underline-animation">Memorial Info</a>
+  <a href='/memorial-info' class="hover-underline-animation">Memorial</a>
   <a href='/memories' class="hover-underline-animation">Memories</a>
   <a href='/give' class="hover-underline-animation">Give</a>
 </nav>
@@ -44,7 +44,7 @@
 		border-bottom: var(--border-divider);
 		display: flex;
 		align-items: center;
-		gap: var(--space-2);
+		gap: var(--space-3);
 		font-size: var(--font-size-3);
 		font-family: var(--font-family-mono);
     background-color: var(--nav-background);
@@ -66,6 +66,7 @@
     /* smartphones, iPhone, portrait 480x320 phones */
     nav a {
       font-size: var(--font-size-3);
+      display: block;
     }
   }
   .hover-underline-animation {
