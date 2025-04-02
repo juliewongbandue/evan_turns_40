@@ -47,15 +47,15 @@
 		gap: var(--space-2);
 		font-size: var(--font-size-3);
 		font-family: var(--font-family-mono);
-		color: var(--primary);
     background-color: var(--nav-background);
     text-align: center;
     position: sticky;
     top: 0;
+    z-index: 1;
 	}
   nav a {
     text-decoration: none;
-    color: var(--primary);
+    color: var(--gray-11);
     font-weight: 500;
     display: block;
     font-size: var(--font-size-2);
@@ -82,7 +82,7 @@
   height: 2px;
   bottom: 0;
   left: 0;
-  background-color: var(--primary);
+  background-color: #7EA8BE;
   transform-origin: bottom right;
   transition: transform 0.25s ease-out;
 }
