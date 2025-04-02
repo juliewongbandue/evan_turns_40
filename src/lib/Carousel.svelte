@@ -60,6 +60,7 @@
 <div class="carousel">
   <div class="carousel-images" style="transform: translateX(-{currentIndex * 100}%)">
     {#each images as image}
+    <img loading="lazy" alt='dad images'/>
       <div style="background-image: url({image})"></div>
     {/each}
   </div>
