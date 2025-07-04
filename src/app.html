@@ -5,9 +5,9 @@
 		<link rel="icon" href="%sveltekit.assets%/favicon.png" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		%sveltekit.head%
-		<title>Thinking of Bue</title>
+		<title>Evan's 40th</title>
 		<style>
-			@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+			@import url('https://fonts.googleapis.com/css2?family=Barriecito&family=Barrio&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
 			/* tokens from https://components.ai/theme/system */
 			:root {
 				--tint-0: hsla(0, 0%, 100%, .035);
@@ -35,16 +35,16 @@
 				--shade-10: hsla(0, 0%, 0%, 0.1);
 				--shade-11: hsla(0, 0%, 0%, 0.035);
 				--gray-0: #000000;
-				--gray-1: #171717;
-				--gray-2: #2f2f2f;
-				--gray-3: #464646;
-				--gray-4: #5e5e5e;
-				--gray-5: #757575;
-				--gray-6: #8c8c8c;
-				--gray-7: #a3a3a3;
-				--gray-8: #bababa;
-				--gray-9: #d1d1d1;
-				--gray-10: #e8e8e8;
+				--gray-1: #232323;
+				--gray-2: #454647;
+				--gray-3: #68696a;
+				--gray-4: #8b8c8e;
+				--gray-5: #aeafb1;
+				--gray-6: #c5c7c8;
+				--gray-7: #d0d2d3;
+				--gray-8: #dcddde;
+				--gray-9: #e8e8e9;
+				--gray-10: #f3f4f4;
 				--gray-11: #ffffff;
 				--red-0: #120205;
 				--red-1: #39050f;
@@ -58,6 +58,30 @@
 				--red-9: #f49fb0;
 				--red-10: #f9c7d1;
 				--red-11: #fdeef1;
+				--blue-0: #000b12;
+				--blue-1: #001d31;
+				--blue-2: #002e50;
+				--blue-3: #00406e;
+				--blue-4: #00528d;
+				--blue-5: #0064ab;
+				--blue-6: #197abf;
+				--blue-7: #4392cb;
+				--blue-8: #6eabd7;
+				--blue-9: #98c3e2;
+				--blue-10: #c3dcee;
+				--blue-11: #edf5fa;
+				--orange-0: #f58522;
+				--orange-1: #d6751e;
+				--orange-2: #b7661b;
+				--orange-3: #985617;
+				--orange-4: #794714;
+				--orange-5: #a65d13;
+				--orange-6: #d37413;
+				--orange-7: #ff8a14;
+				--orange-8: #ffa54a;
+				--orange-9: #ffc081;
+				--orange-10: #ffdab7;
+				--orange-11: #fff5ed;
 				--font-size-0: 0.75rem;
 				--font-size-1: 0.875rem;
 				--font-size-2: 1rem;
@@ -122,12 +146,12 @@
 
 			:root {
 				--primary: var(--primary-color, var(--gray-0));
-				--background: var(--background-color, #F6F0ED);
-				--font-family-heading: "Bodoni Moda", serif;
-				--font-family-body: "Bodoni Moda", serif;
-				--font-family-mono: "Montserrat", sans-serif;
+				--background: var(--background-color, #f0e8e4);
+				--font-family-heading: "Barrio", system-ui;
+				--font-family-body: "Barriecito", system-ui;
+				--font-family-mono: "Roboto Mono", monospace;
 				--header-color: var(--gray-1);
-				--nav-background: #28536b;
+				--nav-background: var(--blue-3);
 			}
 
 			h1 {
@@ -177,6 +201,8 @@
 					font-family: var(--font-family-mono);
 					line-height: var(--line-height-body);
 					font-size: var(--font-size-3);
+					font-optical-sizing: auto;
+					font-style: normal;
 				} 
 			}
 			@media (min-width:481px)  { /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */ 

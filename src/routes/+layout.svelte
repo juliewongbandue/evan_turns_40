@@ -8,9 +8,9 @@
 <div class="wrapper">
 <nav>
   <a href='/' class="hover-underline-animation">Home</a>
-  <a href='/memorial-info' class="hover-underline-animation">Memorial</a>
-  <a href='/memories' class="hover-underline-animation">Memories</a>
-  <a href='/give' class="hover-underline-animation">Give</a>
+  <a href='/party' class="hover-underline-animation">Party</a>
+  <a href='/rsvp' class="hover-underline-animation">RSVP</a>
+  <a href='/fomo' class="hover-underline-animation">FOMO</a>
 </nav>
 <main transition:fade>
   {#key page.url}
@@ -23,21 +23,19 @@
 </main>
 
 <footer>
-	Made with <span>&hearts;</span> by his favorite daughter &copy;2025
+	Made with <span>&hearts;</span> by his favorite girlfriend &copy;2025
 </footer>
 </div>
 
 <style>
+  html, body {
+  overflow-x: hidden;
+  }
   .wrapper {
     min-height: 100%;
     display: grid;
     grid-template-rows: auto 1fr auto;
   }
-
-  main {
-    padding: var(--space-4);
-  }
-  
 	nav {
 		padding: var(--space-3) var(--space-4);
 		transition: var(--transition);
@@ -83,7 +81,7 @@
   height: 2px;
   bottom: 0;
   left: 0;
-  background-color: #7EA8BE;
+  background-color: var(--blue-9);
   transform-origin: bottom right;
   transition: transform 0.25s ease-out;
 }
