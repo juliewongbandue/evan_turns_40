@@ -10,10 +10,10 @@ import RSVPButton from '../lib/rsvpButton.svelte';
   <svg viewBox="0 0 200 100vw" width="100%" height="auto">
     <mask id="text-mask" maskUnits="userSpaceOnUse" maskContentUnits="userSpaceOnUse"  width="100vw" height="200">
       <rect width="100vw" height="200" fill="white"/>
-      <text x="10" y="100" font-family="var(--font-family-heading)" font-size="3rem" font-weight="normal" text-anchor="start">
+      <text x="10" y="100" font-family="var(--font-family-heading)" font-size="var(--hero-text-size, 3.5rem)" font-weight="normal" text-anchor="start">
         <tspan dy="0">Evan's</tspan>
       </text>
-      <text x="10" y="150" font-family="var(--font-family-heading)" font-size="3rem" font-weight="normal" text-anchor="start">
+      <text x="10" y="150" font-family="var(--font-family-heading)" font-size="var(--hero-text-size, 3.5rem)" font-weight="normal" text-anchor="start">
         <tspan d="0">40th Birthday</tspan>
       </text>
     </mask>
@@ -107,32 +107,6 @@ import RSVPButton from '../lib/rsvpButton.svelte';
     text-wrap: wrap
   }
 
-  /* Media Query for Mobile Devices */
-@media (max-width: 767px) { 
-  .info {
-    gap: var(--space-3);
-  }
-  .image-wrapper {
-    text-align: center;
-    gap: 0;
-    margin-bottom: var(--space-4);
-    grid-template-columns: 1fr; 
-    grid-template-areas: 
-      "one"
-      "two";
-  }
-
-  .image-container {
-    --grid-area: one;
-    --image-size: 300px;
-    margin: auto;
-  }
-
-  .image-description {
-    --grid-area: two;
-   }
-}
-
   .header-wrapper {
     position: sticky;
     z-index: 2;
@@ -179,5 +153,36 @@ import RSVPButton from '../lib/rsvpButton.svelte';
     width: 0;
     height: 0;
     overflow: hidden;
+  }
+
+  @media (max-width: 390px) {
+    .header-wrapper {
+      --hero-text-size: 3rem;
+    }
+  }
+  /* Media Query for Mobile Devices */
+  @media (max-width: 767px) { 
+    .info {
+      gap: var(--space-3);
+    }
+    .image-wrapper {
+      text-align: center;
+      gap: 0;
+      margin-bottom: var(--space-4);
+      grid-template-columns: 1fr; 
+      grid-template-areas: 
+        "one"
+        "two";
+    }
+
+    .image-container {
+      --grid-area: one;
+      --image-size: 300px;
+      margin: auto;
+    }
+
+    .image-description {
+      --grid-area: two;
+    }
   }
 </style>
