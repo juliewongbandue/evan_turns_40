@@ -16,15 +16,56 @@
 </div>
 
   <div class="wiper-box"></div>
-    <p>This is some example content. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-    <p>More content to make the page scrollable.</p>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-    <p>Even more content to ensure ample scrolling space.</p>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+  <section class='content'>
+  <div class="image-wrapper" style="--image-border-color: var(--orange-1)">
+    <div class='image-container'></div>
+    <p class='image-description'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis laborum sint provident facere harum hic illo eveniet assumenda expedita labore. Est nihil minima cupiditate laboriosam quisquam quidem, beatae totam accusamus!</p>
+  </div>
+
+  <div class="image-wrapper" style="--image-border-color: var(--blue-9)">
+    <p class='image-description'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis laborum sint provident facere harum hic illo eveniet assumenda expedita labore. Est nihil minima cupiditate laboriosam quisquam quidem, beatae totam accusamus!</p>
+    <div class='image-container'></div>
+  </div>
+
+  <div class="image-wrapper">
+    <div class='image-container'></div>
+    <p class='image-description'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis laborum sint provident facere harum hic illo eveniet assumenda expedita labore. Est nihil minima cupiditate laboriosam quisquam quidem, beatae totam accusamus!</p>
+  </div>
+
+
+  <div class="image-wrapper" style="--image-border-color: var(--orange-8)">
+    <p class='image-description'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis laborum sint provident facere harum hic illo eveniet assumenda expedita labore. Est nihil minima cupiditate laboriosam quisquam quidem, beatae totam accusamus!</p>
+    <div class='image-container'></div>
+  </div>
+  </section>
     
 </article>
 
 <style>
+  .content {
+    padding: var(--space-3)
+  }
+  .image-container {
+    height: 200px;
+    min-width: 200px;
+    border-radius: 100%;
+    background-color: var(--gray-2);
+    border: 10px solid;
+    border-color: var(--image-border-color, var(--blue-3));
+  }
+
+  .image-wrapper {
+    display: flex;
+    max-width: 700px;
+    gap: var(--space-4);
+    align-items: center;
+  }
+
+  .image-description {
+    flex-grow: 1;
+  }
+
   .header-wrapper {
     position: sticky;
     z-index: 2;
@@ -44,7 +85,8 @@
     width: 100vw; 
     height: 200px; 
     backdrop-filter: blur(5px) invert(10%);
-    background-color:rgba(0, 64, 110, 0.9);
+    /* blue-5 */
+    background-color:rgba(0, 64, 110, 0.9); 
     /* backdrop-filter: blur(10px); */
     -webkit-mask: url(#text-mask);
     mask: url(#text-mask);
