@@ -1,3 +1,4 @@
+<div class="content">
 <h1>Party Info</h1>
 
 <section class='article-small'>
@@ -21,11 +22,13 @@
 </div>
 
 </section>
+</div>
 
 <style>
  h2 {
   font-family: var(--font-family-heading);
   font-size: var(--font-size-5);
+  color: var(--header-color);
   font-weight: 600;
   margin: 0;
 }

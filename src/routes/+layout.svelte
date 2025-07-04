@@ -7,6 +7,7 @@
 
 <div class="wrapper">
 <nav>
+  <a href='/'><img class="evan" src='/assets/Evan.png'/> </a>
   <a href='/' class="hover-underline-animation">Home</a>
   <a href='/party' class="hover-underline-animation">Party</a>
   <a href='/rsvp' class="hover-underline-animation">RSVP</a>
@@ -59,6 +60,10 @@
     font-size: var(--font-size-2);
     font-family: var(--font-family-body);
   }
+  .evan {
+    height: 50px;
+    width: auto;
+  }
 
   @media (min-width:320px)  { 
     /* smartphones, iPhone, portrait 480x320 phones */
@@ -81,7 +86,7 @@
   height: 2px;
   bottom: 0;
   left: 0;
-  background-color: var(--blue-9);
+  background-color: var(--orange-7);
   transform-origin: bottom right;
   transition: transform 0.25s ease-out;
 }
@@ -105,7 +110,7 @@
 		color: var(--gray-4);
 		font-family: var(--font-family-mono);
 		font-size: 0.5rem;
-		padding: var(--space-2) var(--space-4);
+		padding: var(--space-2) var(--space-3);
     letter-spacing: var(--letter-spacing-tracked);
 	}
 	footer span {

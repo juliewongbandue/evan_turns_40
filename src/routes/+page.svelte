@@ -20,22 +20,22 @@
   <section class='content'>
   <div class="image-wrapper" style="--image-border-color: var(--orange-1)">
     <div class='image-container'></div>
-    <p class='image-description'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis laborum sint provident facere harum hic illo eveniet assumenda expedita labore. Est nihil minima cupiditate laboriosam quisquam quidem, beatae totam accusamus!</p>
+    <p class='image-description'>Some text about the photo</p>
   </div>
 
   <div class="image-wrapper" style="--image-border-color: var(--blue-9)">
-    <p class='image-description'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis laborum sint provident facere harum hic illo eveniet assumenda expedita labore. Est nihil minima cupiditate laboriosam quisquam quidem, beatae totam accusamus!</p>
+    <p class='image-description'>Some text about the photo</p>
     <div class='image-container'></div>
   </div>
 
   <div class="image-wrapper">
     <div class='image-container'></div>
-    <p class='image-description'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis laborum sint provident facere harum hic illo eveniet assumenda expedita labore. Est nihil minima cupiditate laboriosam quisquam quidem, beatae totam accusamus!</p>
+    <p class='image-description'>Some text about the photo</p>
   </div>
 
 
   <div class="image-wrapper" style="--image-border-color: var(--orange-8)">
-    <p class='image-description'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis laborum sint provident facere harum hic illo eveniet assumenda expedita labore. Est nihil minima cupiditate laboriosam quisquam quidem, beatae totam accusamus!</p>
+    <p class='image-description'>Some text about the photo</p>
     <div class='image-container'></div>
   </div>
   </section>
@@ -47,29 +47,59 @@
     padding: var(--space-3)
   }
   .image-container {
-    height: 200px;
-    min-width: 200px;
+    --image-size: 350px;
+    height: var(--image-size);
+    min-width: var(--image-size);
+    max-width: var(--image-size);
     border-radius: 100%;
     background-color: var(--gray-2);
     border: 10px solid;
     border-color: var(--image-border-color, var(--blue-3));
+    grid-area: var(--grid-column);
   }
 
   .image-wrapper {
-    display: flex;
+    display: grid;
     max-width: 700px;
-    gap: var(--space-4);
+    gap: var(--space-3);
     align-items: center;
+    grid-template-columns: repeat(2);
+    grid-template-rows: auto;
+    grid-template-areas: "one two";
   }
 
   .image-description {
-    flex-grow: 1;
+    grid-area: var(--grid-area);
+    text-wrap: wrap
   }
+
+  /* Media Query for Mobile Devices */
+@media (max-width: 767px) { 
+  .image-wrapper {
+    text-align: center;
+    gap: 0;
+    margin-bottom: var(--space-4);
+    grid-template-columns: 1fr; 
+    grid-template-areas: 
+      "one"
+      "two";
+  }
+
+  .image-container {
+    --grid-area: one;
+    --image-size: 300px;
+    margin: auto;
+  }
+
+  .image-description {
+    --grid-area: two;
+   }
+}
 
   .header-wrapper {
     position: sticky;
     z-index: 2;
-    top: 54px;
+    top: 86px;
   }
 
   .signature {
@@ -95,7 +125,7 @@
   
   .wiper-box {
     position: absolute;
-    top: 54px;
+    top: 86px;
     width: 100vw; 
     height: 200px;
     background-color: var(--orange-8); 
@@ -104,7 +134,7 @@
 
   @keyframes wipe-animation {
     0% { top: -200px } 
-    100% { top: 54px }
+    100% { top: 86px }
   }
 
   svg {
