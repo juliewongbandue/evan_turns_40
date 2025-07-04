@@ -42,7 +42,7 @@ import RSVPButton from '../lib/rsvpButton.svelte';
 
   </section>
   <div class="image-wrapper" style="--image-border-color: var(--orange-1)">
-    <div class='image-container'></div>
+    <div class='image-container' style="background-image: url('assets/evan-2.jpg'); background-size: cover; background-repeat: no-repeat; background-position: 0px -60px"></div>
     <p class='image-description'>Some text about the photo</p>
   </div>
 
@@ -139,10 +139,8 @@ import RSVPButton from '../lib/rsvpButton.svelte';
     width: 100vw; 
     height: 200px;
     background-color: var(--orange-8); 
-    animation: wipe-animation .5s ease-out;
-    background-size: 75px 75px; 
+    animation: wipe-animation .5s ease-out, fallConfetti 8s linear infinite;
   }
-
   @keyframes wipe-animation {
     0% { top: -200px } 
     100% { top: 86px }
