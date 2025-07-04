@@ -96,8 +96,8 @@
   transform-origin: bottom left;
 }
 
-.hover-underline-animation:focus-visible {
-  outline: 2px solid var(--gray-6);
+a:focus-visible {
+  outline: 2px solid var(--blue-10);
   outline-offset: 2px;
 }
 

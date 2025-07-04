@@ -1,3 +1,6 @@
+<script>
+  import RSVPButton from '../../lib/rsvpButton.svelte';
+</script>
 <div class="content">
 <h1>Party Info</h1>
 
@@ -21,17 +24,12 @@
   <p class="more">Please email me with any questions at <a class='email' href="mailto:evanfordebarden@gmail.com?subject=Party Question">evanfordebarden@gmail.com</a>.</p>
 </div>
 
+<RSVPButton/>
+
 </section>
 </div>
 
 <style>
- h2 {
-  font-family: var(--font-family-heading);
-  font-size: var(--font-size-5);
-  color: var(--header-color);
-  font-weight: 600;
-  margin: 0;
-}
 
 .address {
   font-size: var(--font-size-2);
@@ -43,8 +41,6 @@
 .body > .more {
   color: var(--gray-4);
   font-size: var(--font-size-1);
-
-  margin: 0;
 }
 
 </style>

@@ -1,3 +1,8 @@
+<script>
+import RSVPButton from '../lib/rsvpButton.svelte';
+</script>
+
+
 <article class='body'>
 
 <div class="header-wrapper">
@@ -18,6 +23,24 @@
   <div class="wiper-box"></div>
 
   <section class='content'>
+  <section class='article-small'>
+
+  <div>
+    <h2>Saturday, September 13, 2025</h2>
+    <div class='info'>
+      <p><b>Pete's Candy Store</b>
+        <br/>
+        709 Lorimer Street
+        <br/>
+        Brooklyn, NY 11211
+        <br/>
+        2:00PM-6:00PM
+      </p>
+      <RSVPButton/>
+    </div>
+  </div>
+
+  </section>
   <div class="image-wrapper" style="--image-border-color: var(--orange-1)">
     <div class='image-container'></div>
     <p class='image-description'>Some text about the photo</p>
@@ -35,16 +58,27 @@
 
 
   <div class="image-wrapper" style="--image-border-color: var(--orange-8)">
-    <p class='image-description'>Some text about the photo</p>
-    <div class='image-container'></div>
+    <p class='image-description'>Hope to catch you there!</p>
+    <div class='image-container' style="background-image: url('assets/evan-1.jpeg'); background-position: bottom -486px right -100px;"></div>
   </div>
+
+  <RSVPButton/>
+
   </section>
-    
 </article>
 
 <style>
   .content {
     padding: var(--space-3)
+  }
+
+  .info {
+    display: flex;
+    gap: var(--space-4);
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-bottom: var(--space-4);
   }
   .image-container {
     --image-size: 350px;
@@ -75,6 +109,9 @@
 
   /* Media Query for Mobile Devices */
 @media (max-width: 767px) { 
+  .info {
+    gap: var(--space-3);
+  }
   .image-wrapper {
     text-align: center;
     gap: 0;
@@ -117,10 +154,9 @@
     backdrop-filter: blur(5px) invert(10%);
     /* blue-5 */
     background-color:rgba(0, 64, 110, 0.9); 
-    /* backdrop-filter: blur(10px); */
     -webkit-mask: url(#text-mask);
     mask: url(#text-mask);
-    overflow: hidden; 
+    overflow: hidden;
   }
   
   .wiper-box {
@@ -130,6 +166,7 @@
     height: 200px;
     background-color: var(--orange-8); 
     animation: wipe-animation .5s ease-out;
+    background-size: 75px 75px; 
   }
 
   @keyframes wipe-animation {
