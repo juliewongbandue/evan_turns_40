@@ -113,14 +113,6 @@ import RSVPButton from '../lib/rsvpButton.svelte';
     top: 86px;
   }
 
-  .signature {
-    font-family: var(--font-family-body);
-    font-style: italic;
-    color: var(--gray-4);
-    font-size: var(--font-size-3);
-    padding-top: var(--space-4);
-  }
-
   .text-reveal-container {
     position: relative; 
     width: 100vw; 
@@ -141,6 +133,7 @@ import RSVPButton from '../lib/rsvpButton.svelte';
     background-color: var(--orange-8); 
     animation: wipe-animation .5s ease-out, fallConfetti 8s linear infinite;
   }
+
   @keyframes wipe-animation {
     0% { top: -200px } 
     100% { top: 86px }

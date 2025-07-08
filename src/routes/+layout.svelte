@@ -2,14 +2,13 @@
   import { page } from '$app/state';
   import { browser } from '$app/environment';
   import {fade} from 'svelte/transition'
-  export let data
 </script>
 
 <div class="wrapper">
 <nav>
-  <a href='/'><img class="evan" src='/assets/Evan.png'/> </a>
+  <a href='/' ><img class="evan" src='/assets/Evan.png' aria-label="home" alt="evan-svg"/> </a>
   <a href='/' class="hover-underline-animation">Home</a>
-  <a href='/party' class="hover-underline-animation">Party</a>
+  <a href='/party'class="hover-underline-animation">Party</a>
   <a href='/rsvp' class="hover-underline-animation">RSVP</a>
   <a href='/fomo' class="hover-underline-animation">FOMO</a>
 </nav>
@@ -29,9 +28,6 @@
 </div>
 
 <style>
-  html, body {
-  overflow-x: hidden;
-  }
   .wrapper {
     min-height: 100%;
     display: grid;
