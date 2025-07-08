@@ -147,13 +147,38 @@ import RSVPButton from '../lib/rsvpButton.svelte';
     top: 86px;
     width: 100vw;
     height: 200px;
-    background-color: var(--orange-8);
-    animation: wipe-animation .5s ease-out, fallConfetti 8s linear infinite;
+    background-color: var(--orange-8); 
+    animation: bounce 1s ease-in-out;
   }
 
-  @keyframes wipe-animation {
-    0% { top: -200px }
-    100% { top: 86px }
+  @keyframes bounce {
+    0% {
+        transform: translateY(0);
+    }
+    20% {
+        transform: translateY(-200px); /* First big jump */
+    }
+    40% {
+        transform: translateY(0);
+    }
+    60% {
+        transform: translateY(-100px); /* Second, smaller jump */
+    }
+    75% {
+        transform: translateY(0);
+    }
+    85% {
+        transform: translateY(-40px); /* Third, even smaller jump */
+    }
+    90% {
+        transform: translateY(0);
+    }
+    95% {
+        transform: translateY(-15px); /* Final tiny bounce */
+    }
+    100% {
+        transform: translateY(0);
+    }
   }
 
   svg {
