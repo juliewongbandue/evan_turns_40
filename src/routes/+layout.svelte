@@ -14,7 +14,7 @@
 </nav>
 <main transition:fade>
   {#key page.url}
-  <div 
+  <div
     in:fade={{ duration: 500 }}
     out:fade={{ duration: 50}}>
 	<slot />
@@ -23,7 +23,7 @@
 </main>
 
 <footer>
-	Made with <span>&hearts;</span> by his favorite girlfriend &copy;2025
+	Made with <span>&hearts;</span> by his favorite girlfriend + executive produced by Nancy Seidman &copy;2025
 </footer>
 </div>
 
@@ -61,7 +61,7 @@
     width: auto;
   }
 
-  @media (min-width:320px)  { 
+  @media (min-width:320px)  {
     /* smartphones, iPhone, portrait 480x320 phones */
     nav a {
       font-size: var(--font-size-3);

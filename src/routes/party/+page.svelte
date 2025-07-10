@@ -21,7 +21,7 @@
     <li class="info"><b>2PM</b> - Arrive</li>
     <li class="info"><b>2:30PM-6PM</b> - Drinks, music, dancing, talk about Evan, or how much you're actually there for Julie.</li>
   </ul>
-  <p class="more">Please email me with any questions at <a class='email' href="mailto:evanfordebarden@gmail.com?subject=Party Question">evanfordebarden@gmail.com</a>.</p>
+  <p class="more">Please email me with any questions at <a class='email' href="mailto:evanfortybarden@gmail.com?subject=Party Question">evanfortybarden@gmail.com</a>.</p>
 </div>
 
 <RSVPButton/>
