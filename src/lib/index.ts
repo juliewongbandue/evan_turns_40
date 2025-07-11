@@ -1,2 +1,3 @@
 import Button from './button.svelte'
-export { Button }
+import NavLink from './navLink.svelte'
+export { Button, NavLink }

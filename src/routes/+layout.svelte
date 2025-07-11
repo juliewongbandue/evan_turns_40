@@ -2,15 +2,17 @@
   import { page } from '$app/state';
   import { browser } from '$app/environment';
   import {fade} from 'svelte/transition'
+  import { NavLink } from '$lib'
+
 </script>
 
 <div class="wrapper">
 <nav>
   <a href='/' ><img class="evan" src='/assets/Evan.png' aria-label="home" alt="evan-svg"/> </a>
-  <a href='/' class="hover-underline-animation">Home</a>
-  <a href='/party'class="hover-underline-animation">Party</a>
-  <a href='/rsvp' class="hover-underline-animation">RSVP</a>
-  <a href='/fomo' class="hover-underline-animation">FOMO</a>
+  <NavLink href='/' >Home</NavLink>
+  <NavLink href='/party'>Party</NavLink>
+  <NavLink href='/rsvp' >RSVP</NavLink>
+  <NavLink href='/fomo' >FOMO</NavLink>
 </nav>
 <main transition:fade>
   {#key page.url}
@@ -48,59 +50,11 @@
     top: 0;
     z-index: 1;
 	}
-  nav a {
-    text-decoration: none;
-    color: var(--gray-11);
-    font-weight: 500;
-    display: block;
-    font-size: var(--font-size-2);
-    font-family: var(--font-family-body);
-  }
+
   .evan {
     height: 50px;
     width: auto;
   }
-
-  @media (min-width:320px)  {
-    /* smartphones, iPhone, portrait 480x320 phones */
-    nav a {
-      font-size: var(--font-size-3);
-      display: block;
-    }
-  }
-  .hover-underline-animation {
-    display: inline-block;
-    position: relative;
-    border-radius: 3px;
-  }
-
-.hover-underline-animation::after {
-  content: '';
-  position: absolute;
-  width: 100%;
-  transform: scaleX(0);
-  height: 2px;
-  bottom: 0;
-  left: 0;
-  background-color: var(--orange-7);
-  transform-origin: bottom right;
-  transition: transform 0.25s ease-out;
-}
-
-.hover-underline-animation:hover::after {
-  transform: scaleX(1);
-  transform-origin: bottom left;
-}
-
-a:focus-visible {
-  outline: 2px solid var(--blue-10);
-  outline-offset: 2px;
-}
-
-.hover-underline-animation:focus-visible::after {
-  transform: scaleX(1);
-  transform-origin: bottom left;
-}
 
 	footer {
 		color: var(--gray-4);
