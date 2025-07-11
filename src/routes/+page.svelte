@@ -2,9 +2,6 @@
 import RSVPButton from '../lib/rsvpButton.svelte';
 </script>
 
-
-<article class='body'>
-
 <div class="header-wrapper">
   <div class="text-reveal-container"></div>
   <svg viewBox="0 0 200 100vw" width="100%" height="auto">
@@ -19,8 +16,9 @@ import RSVPButton from '../lib/rsvpButton.svelte';
     </mask>
   </svg>
 </div>
+<div class="wiper-box"></div>
 
-  <div class="wiper-box"></div>
+<article class='body'>
 
   <section class='content'>
   <section class='article-small'>
@@ -72,14 +70,13 @@ import RSVPButton from '../lib/rsvpButton.svelte';
   </div>
 
 
-  <div class="image-wrapper" style="--image-border-color: var(--orange-8)">
-    <p class='image-description'>
-      Hope to catch you there!
-    </p>
+  <div class="image-wrapper" style="--image-border-color: var(--orange-8); text-align: center;">
+    <div class='image-description'>
+      <p>Hope to catch you there!</p>
+      <RSVPButton style="margin-top: var(--space-4); justify-self: center;"/>
+    </div>
     <div class='image-container' style="background-image: url('assets/evan-1.jpeg'); background-position: bottom -486px right -100px;"></div>
   </div>
-
-  <RSVPButton/>
 
   </section>
 </article>
@@ -114,7 +111,7 @@ import RSVPButton from '../lib/rsvpButton.svelte';
     max-width: 700px;
     gap: var(--space-3);
     align-items: center;
-    grid-template-columns: repeat(2);
+    grid-template-columns: repeat(2, 1fr);
     grid-template-rows: auto;
     grid-template-areas: "one two";
   }
@@ -198,10 +195,11 @@ import RSVPButton from '../lib/rsvpButton.svelte';
     .info {
       gap: var(--space-3);
     }
+
     .image-wrapper {
       text-align: center;
       gap: 0;
-      margin-bottom: var(--space-4);
+      margin-bottom: var(--space-5);
       grid-template-columns: 1fr;
       grid-template-areas:
         "one"

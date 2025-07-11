@@ -1,9 +1,9 @@
-<script>
-  export let style = ''
+<script >
+  let { style = '' } = $props();
 </script>
 
 <div class='button-layout' style={style}>
-    <a class="button" href="https://www.google.com">RSVP</a>
+    <a class="button" href="/rsvp">RSVP</a>
 </div>
 
 <style>
