@@ -46,31 +46,36 @@ import RSVPButton from '../lib/rsvpButton.svelte';
     <p class='image-description'>
       It's true. I have now spent four decades slithering around on this big rock called earth.
       I've also spent 15 glorious/delusional years in NYC.
-      To celebrate both, I'm having a big party with a heafty bar minimum for which I will need YOUR help getting through.
+      To celebrate both, I'm having a big party with a heafty bar minimum which I will need YOUR help getting through.
       There will be music, laughter, and kind people.
     </p>
   </div>
 
   <div class="image-wrapper" style="--image-border-color: var(--blue-9)">
-    <p class='image-description'>Like many 40-year-olds, I was once a very cute child. Illegally cute.
+    <p class='image-description'>
+      Like many 40-year-olds, I was once a very cute child. Illegally cute.
       Then came self-awareness, puberty, an understanding of global injustices, and hair loss.
-      But I haven't given up just yet.
+      Not necessarily in that order.
+      And I haven't given up just yet.
     </p>
     <div class='image-container' style="background-image: url('assets/evan-tball.jpg'); background-size: 170%; background-repeat: no-repeat; background-position: -140px -160px"></div>
   </div>
 
   <div class="image-wrapper">
     <div class='image-container' style="background-image: url('assets/evan-power-joker.jpg'); background-size: 200%; background-repeat: no-repeat; background-position: -180px -60px"></div>
-    <p class='image-description'>If you're thinking, "Hmmm. Should I really care about this party?"
-      That's fair. But it doesn't look like Julie and I are having a big wedding anytime soon, so when else
-      is this gonna happen? Let's party.
+    <p class='image-description'>
+      If you're thinking, "Hmmm. Should I really care about this party?"
+      That's fair. But it doesn't look like Julie and I are having a big wedding anytime soon,
+      so when else is this gonna happen? Let's party.
       If you don't live near NYC, I ask that you consider this your excuse to visit, or at least check out the FOMO page.
     </p>
   </div>
 
 
   <div class="image-wrapper" style="--image-border-color: var(--orange-8)">
-    <p class='image-description'>Hope to catch you there!</p>
+    <p class='image-description'>
+      Hope to catch you there!
+    </p>
     <div class='image-container' style="background-image: url('assets/evan-1.jpeg'); background-position: bottom -486px right -100px;"></div>
   </div>
 
