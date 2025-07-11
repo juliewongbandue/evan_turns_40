@@ -1,5 +1,5 @@
 <script>
-import RSVPButton from '../lib/rsvpButton.svelte';
+import Button from '../lib/button.svelte';
 </script>
 
 <div class="header-wrapper">
@@ -34,7 +34,7 @@ import RSVPButton from '../lib/rsvpButton.svelte';
         <br/>
         2:00PM-6:00PM
       </p>
-      <RSVPButton/>
+      <Button href='/rsvp'>RSVP</Button>
     </div>
   </div>
 
@@ -73,7 +73,7 @@ import RSVPButton from '../lib/rsvpButton.svelte';
   <div class="image-wrapper" style="--image-border-color: var(--orange-8); text-align: center;">
     <div class='image-description'>
       <p>Hope to catch you there!</p>
-      <RSVPButton style="margin-top: var(--space-4); justify-self: center;"/>
+      <Button style="margin-top: var(--space-4); justify-self: center;" href='/rsvp'>RSVP</Button>
     </div>
     <div class='image-container' style="background-image: url('assets/evan-1.jpeg'); background-position: bottom -486px right -100px;"></div>
   </div>

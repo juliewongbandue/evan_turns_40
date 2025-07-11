@@ -1,14 +1,16 @@
-<script>
-  export let style = ''
+<script >
+  let { style = '', href } = $props();
 </script>
 
 <div class='button-layout' style={style}>
-    <a class="button" href="https://www.google.com">I HAVE FOMO</a>
+    <a class="button" href={href}>
+      <slot></slot>
+    </a>
 </div>
 
 <style>
   .button {
-  display: block;
+  display: block; 
   font-family: var(--font-family-heading);
   font-size: 2rem;
   padding: var(--space-3) var(--space-4);
@@ -26,7 +28,7 @@
   }
 
   .button-layout {
-    display: flex;
+    display: flex; 
     gap: var(--space-3);
     flex-direction: column;
   }

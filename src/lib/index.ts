@@ -1,2 +1,2 @@
-import RSVPButton from './rsvpButton.svelte'
-export {RSVPButton}
+import Button from './button.svelte'
+export { Button }

@@ -1,5 +1,5 @@
 <script>
-  import RSVPButton from '../../lib/rsvpButton.svelte';
+  import Button from '../../lib/button.svelte';
 </script>
 <h1>The Party</h1>
 <article class="content">
@@ -11,7 +11,7 @@
     <br/>
     Brooklyn, NY 11211
   </p>
-  <RSVPButton/>
+  <Button href='/rsvp'>RSVP</Button>
   <p class='info'>Here's the loose timing of everything: </p>
   <ul>
     <li class="info"><b>2PM</b> - Arrive / make final outfit tweaks</li>
@@ -31,7 +31,6 @@
 </div>
 
 <!-- ///// -->
- <hr>
 <h1>Early Birds</h1>
 <div class="body">
   <h2>Friday, September 12th, 2025</h2>
