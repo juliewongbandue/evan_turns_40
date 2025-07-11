@@ -45,7 +45,7 @@ import Button from '../lib/button.svelte';
       It's true. I have now spent four decades slithering around on this big rock called earth.
       I've also spent 15 glorious/delusional years in NYC.
       To celebrate both, I'm having a big party with a heafty bar minimum which I will need YOUR help getting through.
-      There will be music, laughter, and kind people.
+      There will be music, laughter, and high fives.
     </p>
   </div>
 
@@ -54,7 +54,7 @@ import Button from '../lib/button.svelte';
       Like many 40-year-olds, I was once a very cute child. Illegally cute.
       Then came self-awareness, puberty, an understanding of global injustices, and hair loss.
       Not necessarily in that order.
-      And I haven't given up just yet.
+      I've got a few more years to go and it would be nice to kick them off good company.
     </p>
     <div class='image-container' style="background-image: url('assets/evan-tball.jpg'); background-size: 170%; background-repeat: no-repeat; background-position: -140px -160px"></div>
   </div>
@@ -62,10 +62,10 @@ import Button from '../lib/button.svelte';
   <div class="image-wrapper">
     <div class='image-container' style="background-image: url('assets/evan-power-joker.jpg'); background-size: 200%; background-repeat: no-repeat; background-position: -180px -60px"></div>
     <p class='image-description'>
-      If you're thinking, "Hmmm. Should I really care about this party?"
-      That's fair. But it doesn't look like Julie and I are having a big wedding anytime soon,
+      If you're thinking, <em>"This seems kind of overkill for a birthday party,"</em> you're right.
+      But! it doesn't look like Julie and I are having a big wedding anytime soon,
       so when else is this gonna happen? Let's party.
-      If you don't live near NYC, I ask that you consider this your excuse to visit, or at least check out the FOMO page.
+      If you don't live near NYC, consider this your excuse to visit, or at least check out the <a href='/fomo'>FOMO</a> page.
     </p>
   </div>
 
@@ -144,7 +144,7 @@ import Button from '../lib/button.svelte';
     top: 86px;
     width: 100vw;
     height: 200px;
-    background-color: var(--orange-8); 
+    background-color: var(--orange-8);
     animation: bounce 1s ease-in-out;
   }
 
