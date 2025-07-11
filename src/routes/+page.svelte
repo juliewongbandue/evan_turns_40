@@ -1,9 +1,6 @@
 <script>
-import RSVPButton from '../lib/rsvpButton.svelte';
+import Button from '../lib/button.svelte';
 </script>
-
-
-<article class='body'>
 
 <div class="header-wrapper">
   <div class="text-reveal-container"></div>
@@ -19,8 +16,9 @@ import RSVPButton from '../lib/rsvpButton.svelte';
     </mask>
   </svg>
 </div>
+<div class="wiper-box"></div>
 
-  <div class="wiper-box"></div>
+<article class='body'>
 
   <section class='content'>
   <section class='article-small'>
@@ -36,7 +34,7 @@ import RSVPButton from '../lib/rsvpButton.svelte';
         <br/>
         2:00PM-6:00PM
       </p>
-      <RSVPButton/>
+      <Button href='/rsvp'>RSVP</Button>
     </div>
   </div>
 
@@ -72,14 +70,13 @@ import RSVPButton from '../lib/rsvpButton.svelte';
   </div>
 
 
-  <div class="image-wrapper" style="--image-border-color: var(--orange-8)">
-    <p class='image-description'>
-      Hope to catch you there!
-    </p>
+  <div class="image-wrapper" style="--image-border-color: var(--orange-8); text-align: center;">
+    <div class='image-description'>
+      <p>Hope to catch you there!</p>
+      <Button style="margin-top: var(--space-4); justify-self: center;" href='/rsvp'>RSVP</Button>
+    </div>
     <div class='image-container' style="background-image: url('assets/evan-1.jpeg'); background-position: bottom -486px right -100px;"></div>
   </div>
-
-  <RSVPButton/>
 
   </section>
 </article>
@@ -114,7 +111,7 @@ import RSVPButton from '../lib/rsvpButton.svelte';
     max-width: 700px;
     gap: var(--space-3);
     align-items: center;
-    grid-template-columns: repeat(2);
+    grid-template-columns: repeat(2, 1fr);
     grid-template-rows: auto;
     grid-template-areas: "one two";
   }
@@ -147,13 +144,38 @@ import RSVPButton from '../lib/rsvpButton.svelte';
     top: 86px;
     width: 100vw;
     height: 200px;
-    background-color: var(--orange-8);
-    animation: wipe-animation .5s ease-out, fallConfetti 8s linear infinite;
+    background-color: var(--orange-8); 
+    animation: bounce 1s ease-in-out;
   }
 
-  @keyframes wipe-animation {
-    0% { top: -200px }
-    100% { top: 86px }
+  @keyframes bounce {
+    0% {
+        transform: translateY(0);
+    }
+    20% {
+        transform: translateY(-200px); /* First big jump */
+    }
+    40% {
+        transform: translateY(0);
+    }
+    60% {
+        transform: translateY(-100px); /* Second, smaller jump */
+    }
+    75% {
+        transform: translateY(0);
+    }
+    85% {
+        transform: translateY(-40px); /* Third, even smaller jump */
+    }
+    90% {
+        transform: translateY(0);
+    }
+    95% {
+        transform: translateY(-15px); /* Final tiny bounce */
+    }
+    100% {
+        transform: translateY(0);
+    }
   }
 
   svg {
@@ -173,10 +195,11 @@ import RSVPButton from '../lib/rsvpButton.svelte';
     .info {
       gap: var(--space-3);
     }
+
     .image-wrapper {
       text-align: center;
       gap: 0;
-      margin-bottom: var(--space-4);
+      margin-bottom: var(--space-5);
       grid-template-columns: 1fr;
       grid-template-areas:
         "one"

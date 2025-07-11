@@ -1,11 +1,8 @@
 <script>
-  import RSVPButton from '../../lib/rsvpButton.svelte';
+  import Button from '../../lib/button.svelte';
 </script>
-<div class="content">
 <h1>The Party</h1>
-
-<section class='article-small'>
-
+<article class="content">
 <div class='body'>
   <h2>Saturday, September 13, 2025</h2>
   <p class="address">Pete's Candy Store
@@ -14,28 +11,26 @@
     <br/>
     Brooklyn, NY 11211
   </p>
-
-  <!-- <h2>Schedule</h2> -->
+  <Button href='/rsvp'>RSVP</Button>
   <p class='info'>Here's the loose timing of everything: </p>
   <ul>
     <li class="info"><b>2PM</b> - Arrive / make final outfit tweaks</li>
     <li class="info"><b>2:30PM-6PM</b> - Drinks, music, dancing, talk about me, or how much you're actually there for Julie.</li>
     <li class="info"><b>6:30PM</b> - The bar opens to regular service. You don't have to leave, but I will be going to dinner. I suggest you do the same!</li>
   </ul>
-    <!-- <h2>Dress Code</h2> -->
   <p class="info">
     <b>Dress code:</b> I just want to see you in your New York best. Whatever that means to you. Alternatively, do whatever you want.
   </p>
 </div>
-<RSVPButton/>
-<h1>The After Party</h1>
 <div class="body">
-  <h2>Later that night!</h2>
+  <h2>The After Party</h2>
   <p class='info'>
     After a break for dinner, I'll be posting up somewhere in Greenpoint/Williamsburg
     for the rest of the night. Details to come.
   </p>
 </div>
+
+<!-- ///// -->
 <h1>Early Birds</h1>
 <div class="body">
   <h2>Friday, September 12th, 2025</h2>
@@ -54,9 +49,7 @@
   </p>
       <p class="more">Please email me with any questions at <a class='email' href="mailto:evanfortybarden@gmail.com?subject=Party Question">evanfortybarden@gmail.com</a>.</p>
 </div>
-
-</section>
-</div>
+</article>
 
 <style>
 
