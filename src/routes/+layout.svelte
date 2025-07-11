@@ -25,7 +25,7 @@
 </main>
 
 <footer>
-	Made with <span>&hearts;</span> by his favorite girlfriend + executive produced by Nancy Seidman &copy;2025
+	Made with <span>&hearts;</span> by his favorite girlfriend Julie + executive produced by Nancy Seidman &copy;2025
 </footer>
 </div>
 

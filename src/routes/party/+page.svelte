@@ -19,7 +19,15 @@
     <li class="info"><b>6:30PM</b> - The bar opens to regular service. You don't have to leave, but I will be going to dinner. I suggest you do the same!</li>
   </ul>
   <p class="info">
-    <b>Dress code:</b> I just want to see you in your New York best. Whatever that means to you. Alternatively, do whatever you want.
+    <b>Dress code:</b> I want to see you in your New York best. Whatever
+    that means to you.
+  </p>
+    <p class="info">
+    <b>Vibe:</b> Pete's is very casual, laid back. There will be outdoor space.
+    There will be music, potentially loud in one of the rooms. There will be drinks
+    and some snacks and lots of funny and sweet people. Children are welcome, but
+    I'm not sure they'll have a great time. Dogs are not allowed, which is a bummer.
+    Feel free to stop by for a few or hang out the whole time!
   </p>
 </div>
 <div class="body">
@@ -47,7 +55,7 @@
     Rosenstock and the bad boys of Ontario, PUP, at Brooklyn Paramount. <a href="https://www.ticketmaster.com/event/000062750A608011?irgwc=1&clickid=UAS15K1aYxycUaxUoESJU196UksSBeW5Ly4O180&camefrom=CFC_BUYAT_1387536&impradid=1387536&REFERRAL_ID=tmfeedbuyat1387536&wt.mc_id=aff_BUYAT_1387536&utm_source=1387536-Seated&impradname=Seated&utm_medium=affiliate&ircid=4272" target="_blank">Grab a ticket</a>, scream your head off, and ring in
     my actual birthday with me at midnight.
   </p>
-      <p class="more">Please email me with any questions at <a class='email' href="mailto:evanfortybarden@gmail.com?subject=Party Question">evanfortybarden@gmail.com</a>.</p>
+      <p class="more">Please email me with any questions at <a class='email' href="mailto:evanfortybarden@gmail.com?subject=Party Question">evanfortybarden at gmail</a>.</p>
 </div>
 </article>
 
