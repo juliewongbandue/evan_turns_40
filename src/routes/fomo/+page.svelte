@@ -1,7 +1,8 @@
 <div class="content">
-<h1>FOMO</h1>
+
 
 <article class="body">
+<h1>FOMO</h1>
 <p class="content">
   One of the main goals of this whole shindig is to reconnect with folks I haven't seen in a while.
   Many of you live far away from NYC, dislike large gatherings, or are welcoming a new baby into
