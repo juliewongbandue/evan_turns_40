@@ -2,9 +2,9 @@
 	import Button from '$lib/button.svelte';
 </script>
 <div class="content">
-<h1>RSVP</h1>
 
 <article class="body">
+  <h1>RSVP</h1>
   <p>Please let me know if you'll be able to make it!</p>
   <p class="subText">(<a href="https://docs.google.com/forms/d/e/1FAIpQLScOZ-hOS_x63VWyxVd3q-u_wiOIRehrHA2vCOnbckDKmjqQ5g/viewform?usp=header" target="_blank">Click here</a> if you don't see a form below.)</p>
 

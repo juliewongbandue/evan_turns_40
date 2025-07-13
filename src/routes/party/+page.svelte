@@ -1,9 +1,10 @@
 <script>
   import Button from '../../lib/button.svelte';
 </script>
-<h1>The Party</h1>
+
 <article class="content">
 <div class='body'>
+  <h1>The Party</h1>
   <h2>Saturday, September 13, 2025</h2>
   <p class="address">Pete's Candy Store
     <br/>
@@ -39,16 +40,17 @@
 </div>
 
 <!-- ///// -->
-<h1>Early Birds</h1>
-<div class="body">
+<div class="body" style="margin-top: var(--space-5)">
+  <h1>Early Birds</h1>
   <h2>Friday, September 12th, 2025</h2>
   <p class='info'>
     If you're in town on Friday and want to start celebrating early, I will almost definitely
     be doing improv at Magnet Theater with The Friday Night Sh*w. 9pm!
   </p>
 </div>
-<h1>Sickos Only</h1>
+
 <div class="body">
+  <h1>Sickos Only</h1>
   <h2>Sunday, September 14th, 2025</h2>
   <p class='info'>
     If you're an absolute psycho and like punk music, I will be going to see NY legend Jeff
