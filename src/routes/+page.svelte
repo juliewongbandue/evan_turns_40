@@ -6,7 +6,7 @@ import Button from '../lib/button.svelte';
   <div class="text-reveal-container"></div>
   <svg viewBox="0 0 200 100" height="100%" width="100%">
     <mask id="text-mask" maskUnits="userSpaceOnUse" maskContentUnits="userSpaceOnUse"  width="100vw" height="200">
-      <rect width="100vw" height="200" fill="white"/>
+      <circle cx="100" cy="100" r="350" fill="white"/>
       <text x="10" y="100" font-family="var(--font-family-heading)" font-size="var(--hero-text-size, 3.5rem)" font-weight="normal" text-anchor="start">
         <tspan dy="0">Evan's</tspan>
       </text>
