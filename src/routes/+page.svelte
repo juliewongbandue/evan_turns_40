@@ -2,26 +2,12 @@
 import Button from '../lib/button.svelte';
 </script>
 
-<div class="header-wrapper">
-  <div class="text-reveal-container"></div>
-  <svg viewBox="0 0 200 100" height="100%" width="100%">
-    <mask id="text-mask" maskUnits="userSpaceOnUse" maskContentUnits="userSpaceOnUse"  width="100vw" height="200">
-      <circle cx="100" cy="100" r="350" fill="white"/>
-      <text x="10" y="100" font-family="var(--font-family-heading)" font-size="var(--hero-text-size, 3.5rem)" font-weight="normal" text-anchor="start">
-        <tspan dy="0">Evan's</tspan>
-      </text>
-      <text x="10" y="150" font-family="var(--font-family-heading)" font-size="var(--hero-text-size, 3.5rem)" font-weight="normal" text-anchor="start">
-        <tspan d="0">40th Birthday</tspan>
-      </text>
-    </mask>
-  </svg>
-</div>
-<div class="wiper-box"></div>
+  <div class='header-wrapper'>
+      <h1 class='header'>Evan's 40th Birthday</h1>
+  </div>
 
 <article class='body'>
-
   <section class='content'>
-  <section class='article-small'>
 
   <div>
     <h2>Saturday, September 13, 2025</h2>
@@ -78,10 +64,28 @@ import Button from '../lib/button.svelte';
     <div class='image-container' style="background-image: url('assets/evan-1.jpeg'); background-position: bottom -486px right -100px;"></div>
   </div>
 
-  </section>
 </article>
 
 <style>
+  @keyframes bounce {
+    0%, 50%, 80%, 100% {transform: translateY(0);}
+    20% { transform: translateY(-200px)}
+    40% {transform: translateY(-50px);}
+    60% {transform: translateY(-15px);}
+  }
+
+  .header-wrapper {
+    background-color: var(--blue-4);
+    padding: var(--space-4);
+  }
+  .header {
+    max-width: 700px;
+    margin: auto;
+    color: var(--orange-8);
+    font-style: unset;
+    animation: bounce 1s ease-in-out;
+  }
+
   .content {
     padding: var(--space-3)
   }
@@ -121,12 +125,6 @@ import Button from '../lib/button.svelte';
     text-wrap: wrap
   }
 
-  .header-wrapper {
-    position: sticky;
-    z-index: 2;
-    top: 86px;
-  }
-
   .text-reveal-container {
     position: relative;
     width: 100vw;
@@ -137,58 +135,6 @@ import Button from '../lib/button.svelte';
     -webkit-mask: url(#text-mask);
     mask: url(#text-mask);
     overflow: hidden;
-  }
-
-  .wiper-box {
-    position: absolute;
-    top: 86px;
-    width: 100vw;
-    height: 200px;
-    background-color: var(--orange-8);
-    animation: bounce 1s ease-in-out;
-  }
-
-  @keyframes bounce {
-    0% {
-        transform: translateY(0);
-    }
-    20% {
-        transform: translateY(-200px); /* First big jump */
-    }
-    40% {
-        transform: translateY(0);
-    }
-    60% {
-        transform: translateY(-100px); /* Second, smaller jump */
-    }
-    75% {
-        transform: translateY(0);
-    }
-    85% {
-        transform: translateY(-40px); /* Third, even smaller jump */
-    }
-    90% {
-        transform: translateY(0);
-    }
-    95% {
-        transform: translateY(-15px); /* Final tiny bounce */
-    }
-    100% {
-        transform: translateY(0);
-    }
-  }
-
-  svg {
-    position: absolute;
-    width: 0;
-    height: 0;
-    overflow: hidden;
-  }
-
-  @media (max-width: 390px) {
-    .header-wrapper {
-      --hero-text-size: 3rem;
-    }
   }
   /* Media Query for Mobile Devices */
   @media (max-width: 767px) {
