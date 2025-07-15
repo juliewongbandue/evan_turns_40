@@ -10,15 +10,16 @@
   to the party, I would still love to hear from you.
 </p>
 <p class="content">
-  If you're the type to talk it out, please call <strong>(512) 522-7336‬</strong> and leave me a voicemail. I promise I
-  won't pick up! And if you're more of a writer, please drop me a line at <a class='email' href="mailto:evanfortybarden@gmail.com?subject=Hi Evan">evanfortybarden at gmail</a> to share a
-  fond memory, what you think of my whole deal, or a time I was wrong about something.
-  Anything, really. I miss you and it'll be really nice to hear from you.
+  If you're the type to talk it out, please call <strong>(512) 522-7336‬</strong> and leave me a
+  voicemail. I promise I won't pick up! And if you're more of a writer, please drop me a line at
+  <a class='email' href="mailto:evanfortybarden@gmail.com?subject=Hi Evan">evanfortybarden at
+  gmail</a> to share a fond memory, what you think of my whole deal, or a time I was wrong about
+  something. Anything, really. I miss you and it'll be really nice to hear from you.
 </p>
 <p class="content">
-  Of course, you are always encouraged to just call or text my ass, but maybe this feels bit a nicer, or
-  <em>intentional</em>, and you don't need to worry about interrupting me while I yell at someone
-  for parking in a bike lane.
+  Of course, you are always encouraged to just call or text my ass, but maybe you'd prefer something
+  that feels a bit more <em>intentional</em>, so that's what these options are for. Plus, you won't
+  need to worry about interrupting me while I yell at someone for parking in a bike lane.
 </p>
 <p class="content">
   More of a card person? Do whatever you want! You have my address.

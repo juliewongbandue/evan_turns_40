@@ -6,13 +6,27 @@
 <div class='body'>
   <h1>The Party</h1>
   <h2>Saturday, September 13, 2025</h2>
-  <p class="address">Pete's Candy Store
-    <br/>
-    709 Lorimer Street
-    <br/>
-    Brooklyn, NY 11211
-  </p>
-  <Button href='/rsvp'>RSVP</Button>
+  <div class="flexRow">
+    <p class="address">Pete's Candy Store
+      <a href="https://maps.app.goo.gl/EADCaoEZ2Uy4Up6o7" target="_blank"><br/>
+      709 Lorimer St
+      <br/>
+      Brooklyn, NY 11211</a>
+    </p>
+    <Button href='/rsvp'>RSVP</Button>
+  </div>
+  <div class="map-container">
+  <iframe
+    width="330"
+    height="265"
+    frameborder="0"
+    style="border:0"
+    referrerpolicy="no-referrer-when-downgrade"
+    src="https://www.google.com/maps?q=Pete's+Candy+Store,+Brooklyn,+NY&z=17&output=embed"
+    allowfullscreen>
+  </iframe>
+  </div>
+
   <p class='info'>Here's the loose timing of everything: </p>
   <ul>
     <li class="info"><b>2PM</b> - Arrive / make final outfit tweaks</li>
@@ -57,7 +71,8 @@
     Rosenstock and the bad boys of Ontario, PUP, at Brooklyn Paramount. <a href="https://www.ticketmaster.com/event/000062750A608011?irgwc=1&clickid=UAS15K1aYxycUaxUoESJU196UksSBeW5Ly4O180&camefrom=CFC_BUYAT_1387536&impradid=1387536&REFERRAL_ID=tmfeedbuyat1387536&wt.mc_id=aff_BUYAT_1387536&utm_source=1387536-Seated&impradname=Seated&utm_medium=affiliate&ircid=4272" target="_blank">Grab a ticket</a>, scream your head off, and ring in
     my actual birthday with me at midnight.
   </p>
-      <p class="more">Please email me with any questions at <a class='email' href="mailto:evanfortybarden@gmail.com?subject=Party Question">evanfortybarden at gmail</a>.</p>
+    <img src="assets/pup-jeff-killian-young.jpg" width="100%" title="jeff rosenstock holds a microphone on stage while pup lead singer stefan babcock crowdsurfs over the excited masses at st. vitus. somewhere below stefan is evan. also visible is kind human pat cartelli. photo by killian young." alt="jeff rosenstock holds a microphone on stage while pup lead singer stefan babcock crowdsurfs over the excited masses at st. vitus. photo by killian young."/>
+  <p class="more">Please email me with any questions at <a class='email' href="mailto:evanfortybarden@gmail.com?subject=Party Question">evanfortybarden at gmail</a>.</p>
 </div>
 </article>
 
@@ -73,6 +88,12 @@
 .body > .more {
   color: var(--gray-4);
   font-size: var(--font-size-1);
+}
+
+.flexRow {
+   display: flex;
+   align-items: center;
+   gap: var(--space-4);
 }
 
 </style>

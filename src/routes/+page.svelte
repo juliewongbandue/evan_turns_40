@@ -13,11 +13,13 @@ import Button from '../lib/button.svelte';
     <h2>Saturday, September 13, 2025</h2>
     <div class='info'>
       <p><b>Pete's Candy Store</b>
+        <a href="https://maps.app.goo.gl/EADCaoEZ2Uy4Up6o7" target="_blank">
         <br/>
-        709 Lorimer Street
+        709 Lorimer St
         <br/>
         Brooklyn, NY 11211
         <br/>
+        </a>
         2:00PM-6:00PM
       </p>
       <Button href='/rsvp'>RSVP</Button>
@@ -40,7 +42,7 @@ import Button from '../lib/button.svelte';
       Like many 40-year-olds, I was once a very cute child. Illegally cute.
       Then came self-awareness, puberty, an understanding of global injustices, and hair loss.
       Not necessarily in that order.
-      I've got a few more years to go and it would be nice to kick them off good company.
+      I've got a few more years to go and it would be nice to kick them off with good company.
     </p>
     <div class='image-container' style="background-image: url('assets/evan-tball.jpg'); background-size: 170%; background-repeat: no-repeat; background-position: -140px -160px"></div>
   </div>
