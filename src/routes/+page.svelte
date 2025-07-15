@@ -32,7 +32,7 @@ import Button from '../lib/button.svelte';
     <p class='image-description'>
       It's true. I have now spent four decades slithering around on this big rock called earth.
       I've also spent 15 glorious/delusional years in NYC.
-      To celebrate both, I'm having a big party with a heafty bar minimum which I will need YOUR help getting through.
+      To celebrate both, I'm having a big party with a hefty bar minimum which I will need YOUR help getting through.
       There will be music, laughter, and high fives.
     </p>
   </div>
