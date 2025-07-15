@@ -2,6 +2,12 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8" />
+      <!-- Open Graph (OG) Meta Tags -->
+    <meta property="og:title" content="Evan's 40th" />
+    <meta property="og:description" content="That guy you hate has a brithday." />
+    <meta property="og:image" content="https://evanfortybarden.nyc/assets/evan-2.jpg" />
+    <meta property="og:url" content="https://evanfortybarden.nyc/" />
+    <meta property="og:type" content="website" />
 		<link rel="icon" href="%sveltekit.assets%/evan.ico" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		%sveltekit.head%
@@ -205,7 +211,7 @@
 				text-decoration: none;
 			}
 
-			@media (min-width:320px)  { 
+			@media (min-width:320px)  {
 				/* smartphones, iPhone, portrait 480x320 phones */
 				h1 {
 					font-size: var(--font-size-7);
@@ -216,9 +222,9 @@
 					line-height: var(--line-height-body);
 					font-optical-sizing: auto;
 					font-style: normal;
-				} 
+				}
 			}
-			@media (min-width:481px)  { /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */ 
+			@media (min-width:481px)  { /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
 				h1 {
 					font-size: var(--font-size-8);
 				}
@@ -228,8 +234,8 @@
 					line-height: var(--line-height-body);
 					font-size: var(--font-size-3);
 				}}
-			@media (min-width:641px)  { 
-				/* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */ 
+			@media (min-width:641px)  {
+				/* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
 				h1 {
 					font-size: var(--font-size-8);
 				}
