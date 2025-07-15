@@ -71,7 +71,14 @@
     Rosenstock and the bad boys of Ontario, PUP, at Brooklyn Paramount. <a href="https://www.ticketmaster.com/event/000062750A608011?irgwc=1&clickid=UAS15K1aYxycUaxUoESJU196UksSBeW5Ly4O180&camefrom=CFC_BUYAT_1387536&impradid=1387536&REFERRAL_ID=tmfeedbuyat1387536&wt.mc_id=aff_BUYAT_1387536&utm_source=1387536-Seated&impradname=Seated&utm_medium=affiliate&ircid=4272" target="_blank">Grab a ticket</a>, scream your head off, and ring in
     my actual birthday with me at midnight.
   </p>
-    <img src="assets/pup-jeff-killian-young.jpg" width="100%" title="jeff rosenstock holds a microphone on stage while pup lead singer stefan babcock crowdsurfs over the excited masses at st. vitus. somewhere below stefan is evan. also visible is kind human pat cartelli. photo by killian young." alt="jeff rosenstock holds a microphone on stage while pup lead singer stefan babcock crowdsurfs over the excited masses at st. vitus. photo by killian young."/>
+  <div class="body">
+  <h1>Birthday</h1>
+  <h2>Monday, September 15th, 2025</h2>
+  <p class='info'>
+    I will be taking my actual birthday off from work. If you're around, lmk.
+  </p>
+</div>
+  <img src="assets/pup-jeff-killian-young.jpg" width="100%" title="jeff rosenstock holds a microphone on stage while pup lead singer stefan babcock crowdsurfs over the excited masses at st. vitus. somewhere below stefan is evan. also visible is kind human pat cartelli. photo by killian young." alt="jeff rosenstock holds a microphone on stage while pup lead singer stefan babcock crowdsurfs over the excited masses at st. vitus. photo by killian young."/>
   <p class="more">Please email me with any questions at <a class='email' href="mailto:evanfortybarden@gmail.com?subject=Party Question">evanfortybarden at gmail</a>.</p>
 </div>
 </article>
