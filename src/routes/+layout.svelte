@@ -13,6 +13,7 @@
   <NavLink href='/party'>Party</NavLink>
   <NavLink href='/rsvp' >RSVP</NavLink>
   <NavLink href='/fomo' >FOMO</NavLink>
+  <NavLink href='/faq' >FAQ</NavLink>
 </nav>
 <main transition:fade>
   {#key page.url}

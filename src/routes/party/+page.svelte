@@ -79,7 +79,7 @@
   </p>
 </div>
   <img src="assets/pup-jeff-killian-young.jpg" width="100%" title="jeff rosenstock holds a microphone on stage while pup lead singer stefan babcock crowdsurfs over the excited masses at st. vitus. somewhere below stefan is evan. also visible is kind human pat cartelli. photo by killian young." alt="jeff rosenstock holds a microphone on stage while pup lead singer stefan babcock crowdsurfs over the excited masses at st. vitus. photo by killian young."/>
-  <p class="more">Please email me with any questions at <a class='email' href="mailto:evanfortybarden@gmail.com?subject=Party Question">evanfortybarden at gmail</a>.</p>
+  <p class="more">Questions? Checkout the <a href="/faq">FAQ</a> or email me: <a class='email' href="mailto:evanfortybarden@gmail.com?subject=Party Question">evanfortybarden at gmail</a>.</p>
 </div>
 </article>
 
