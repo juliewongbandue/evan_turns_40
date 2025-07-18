@@ -44,7 +44,7 @@
   Absolutely. They are welcome and will be celebrated. However, there may be some loud music and
   there will be approximately zero toys, so depending on their age, they may need hearing protection
   or adult conversational skills. There will be a music-free backyard though and, if enough kids are
-  coming, I'll try to get some funnt coloring books or other activies for that space. No promises!
+  coming, I'll try to get some funny coloring books or other activies for that space. No promises!
 </p>
 	</div>
 </Accordion>
@@ -196,7 +196,7 @@
 
 <p class="content">
   More questions? Text, call, or
-<a class='email' href="mailto:evanfortybarden@gmail.com?subject=Hi Evan">
+<a class='email' href="mailto:evanfortybarden@gmail.com?subject=Not so frequently asked question">
 email me
   </a>
 !
