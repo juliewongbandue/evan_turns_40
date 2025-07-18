@@ -41,7 +41,6 @@
 	}
 
 	div.details {
-		background-color: var(--blue-10);
 		padding: var(--space-1);
 	}
 
