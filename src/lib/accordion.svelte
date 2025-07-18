@@ -6,13 +6,7 @@
 
 <div class="accordion">
 	<div class="header" on:click={handleClick}>
-    <button class="accordion-button">
-    {#if open}
-    ﹀
-    {:else}
-    〉
-    {/if}
-		</button>
+    <button class="accordion-button" class:accordion-open={open}/>
 		<div class="text">
 			<slot name="head"></slot>
 		</div>
@@ -35,10 +29,10 @@
 
 	div.header {
 		display:flex;
-		width:100%;
     gap: var(--space-2);
     background-color: var(--orange-9);
     padding: var(--space-2);
+		align-items: center;
 	}
 
 	div.header .text {
@@ -56,7 +50,23 @@
 	}
 
   .accordion-button {
-    /* padding-left: var(--space-2); */
-    /* text-align: 'center'; */
+    height: 1rem;
+		width: 1rem;
+		background-image: url('/assets/right-thin-chevron.png');
+		background-size: contain;
+		border: none;
+		transition: transform .2s ease-in-out;
+		background-color: transparent;
+		border-radius: 3px;
   }
+
+	.accordion-button:focus-visible{
+		outline: 2px solid var(--blue-10);
+ 		outline-offset: 2px;
+	}
+
+	.accordion-open {
+		transform: rotate(90deg);
+	}
+
 </style>
