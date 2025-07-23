@@ -75,6 +75,28 @@
 </Accordion>
 <!-- question -->
 <Accordion>
+	<span slot="head">Will I know anyone at the party?</span>
+	<div slot="details">
+<p class="content">
+  If we have any mutual friends, you can assume that some if not most of them are invited. If you
+  are anxious abou this, text me. In the rare chance you don't know anyone at the party, please
+  just chat with a stranger. They are all really nice and most of them are funny.
+</p>
+	</div>
+</Accordion>
+<!-- question -->
+<Accordion>
+	<span slot="head">Will my ex be there?</span>
+	<div slot="details">
+<p class="content">
+  I'm not gonna lie to you. Unless I specifically picked a side or wrote someone off, there's a
+  decent chance I have invited them. Are they actually coming? You'll have to text me to find out.
+  Just so you're not alone, I'll try invite an ex or two of my own.
+</p>
+	</div>
+</Accordion>
+<!-- question -->
+<Accordion>
 	<span slot="head">Will there be food?</span>
 	<div slot="details">
 <p class="content">
