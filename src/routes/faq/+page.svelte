@@ -79,7 +79,7 @@
 	<div slot="details">
 <p class="content">
   If we have any mutual friends, you can assume that some if not most of them are invited. If you
-  are anxious abou this, text me. In the rare chance you don't know anyone at the party, please
+  are anxious about this, text me. In the rare chance you don't know anyone at the party, please
   just chat with a stranger. They are all really nice and most of them are funny.
 </p>
 	</div>
@@ -133,6 +133,18 @@
   "New York best" just means to dress up a little and try to swag out. Have fun. All levels of
   formality are welcome and you will be celebrated equally for wearing a tux as you will be for
   cosplaying indie sleaze. I will also love you if you just show up normal.
+</p>
+	</div>
+</Accordion>
+<!-- question -->
+<Accordion>
+	<span slot="head">What do you want for your birthday?</span>
+	<div slot="details">
+<p class="content">
+  What?! omgggg. You do not have to do that. One year when I was like 10, I asked for a box of York
+  peppermint patties and a head of iceberg lettuce. I got both and it was heaven. So, I'm easy.
+  Your attendance is enough of a gift. That said, if you have a fun talent to contrubute to the
+  party, lmk.
 </p>
 	</div>
 </Accordion>
