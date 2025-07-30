@@ -207,22 +207,25 @@
   Yes! Perfect. Read this and we can skip that whole slog on the day of the party. I want to hear
   about YOU anyway. Okay, so what have I been up to? Since moving to NYC in 2010 (actually Hoboken
   for the first year)...I have taken so many improv classes and done so many improv shows. I've also
-  done a lot of sketch comedy, most recently with my team Young Douglas. We are currently writing a
-  longform narrative heist which should debut sometime in the next year. I worked at a FinTech
-  company for awhile, then had a mish mash of jobs at a comedy theater, a children's arts and
-  education company, a boutique tutoring service, and I even tried doing Postmates for a hot minute.
-  Then almost three years ago I went to a coding bootcamp and I am now a frontend web developer for
-  a big insurance company. I still do improv at Magnet Theater and I co-host a comedy talk show
-  about urban life called The Power Joker. I lived in Astoria for eight years and now Greenpoint for
-  the last six. Along the way, I hosted a podcast with one of my best buds, biked all around the
-  city, blogged about going on one hundred dates, went on a few hundred more dates (give or take),
-  and then met my incredible partner Julie on Bumble in 2018. She is easily the best thing to happen
-  to me in this entire paragraph. We have a nice little life together and things are generally good.
+  done a lot of sketch comedy, most recently with my team <a href="https://www.youtube.com/youngdouglas"
+  target="_blank">Young Douglas</a>. We are currently writing a longform narrative heist which should
+  debut sometime in the next year. I worked at a FinTech company for awhile, then had a mish mash of
+  jobs at a comedy theater, a children's arts and education company, a boutique tutoring service,
+  and I even tried doing Postmates for a hot minute. Then almost three years ago I went to a coding
+  bootcamp and I am now a frontend web developer for a big insurance company. I still do improv at
+  Magnet Theater and I co-host a comedy talk show about urban life called
+  <a href="https://www.youtube.com/@PowerJokerShow" target="_blank"> The Power Joker</a>. I lived in
+  Astoria for eight years and now Greenpoint for the last six. Along the way, I hosted a podcast with
+  one of my best buds, biked all around the city, blogged about going on one hundred dates, went on
+  a few hundred more dates (give or take), and then met my incredible partner Julie on Bumble in 2018.
+  She is easily the best thing to happen to me in this entire paragraph. We have a nice little life
+  together and things are generally good.
   My dad is still alive and my mom is still dead. I still like the Warriors and that whole bit about
   loving Carly Rae Jepsen turned out to be real. I'm as confused by that one as you are. Let's see,
   what else...what else? Oh. I've been on the same softball team for 11 years and I organize for
-  racial justice with SURJ-NYC and the RAPP campaign. I mostly eat a plant-based diet and I've been
-  doing that for a decade or so. I'm also an uncle now and it rocks. I've missed you!
+  racial justice with SURJ-NYC and the <a href="https://rappcampaign.com/" target="_blank">RAPP
+    campaign</a>. I mostly eat a plant-based diet and I've been doing that for a decade or so. I'm
+    also an uncle now and it rocks. I've missed you!
 </p>
 	</div>
 </Accordion>
