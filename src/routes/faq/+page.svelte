@@ -67,9 +67,8 @@
 	<span slot="head">Is Pete's wheelchair accessible?</span>
 	<div slot="details">
 <p class="content">
-  If memory serves me right, yes. It also says so on Google Maps and the photos on Google Images
-  certainly make it appear so, but we can't trust Google. I will visit again soon and update this
-  response!
+  Yes, it is. The entrance is fully accessible, but I will warn that the bathrooms are a bit tight
+  and may not be up to code.
 </p>
 	</div>
 </Accordion>
@@ -141,9 +140,9 @@
 	<span slot="head">What do you want for your birthday?</span>
 	<div slot="details">
 <p class="content">
-  What?! omgggg. You do not have to do that. One year when I was like 10, I asked for a box of York
+  What?! omgggg. You do not have to do that. One year when I was like 10, I asked for a box of
   peppermint patties and a head of iceberg lettuce. I got both and it was heaven. So, I'm easy.
-  Your attendance is enough of a gift. That said, if you have a fun talent to contrubute to the
+  Your attendance is enough of a gift. But...if you have a fun talent to contrubute to the
   party, lmk.
 </p>
 	</div>
@@ -153,8 +152,8 @@
 	<span slot="head">Will this conflict with DIRT softball?</span>
 	<div slot="details">
 <p class="content">
-  We're gonna see if Todd can schedule our bye week for this day, so hopefully not. But if so,
-  please shower at Dom's and then come on over.
+  Probably, but it goes until ~6:30pm, so, after we've won, please shower at Dom's and then come on
+  over.
 </p>
 	</div>
 </Accordion>
@@ -181,11 +180,10 @@
 	<span slot="head">The party description is kind of vague. Will this be fun?</span>
 	<div slot="details">
 <p class="content">
-  Great question. You don't trust me and you're right to be skeptical. I haven't earned it. The
-  description is vague right now because I haven't booked anything aside from the venue and I am
-  trying to see if any friends' bands will play. If that sounds like fun to you, then you will be
-  very happy. If that doesn't sound like fun, that's why there is a music-free backyard where you
-  can post up.
+  Great question. You don't trust me and you're right to be skeptical. I haven't earned it. As of
+  this writing, we're going to have a great DJ and my friends The Cherry Fog are going to play. If
+  that sounds like fun to you, then you will be very happy. If that doesn't sound like fun, that's
+  why there is a music-free backyard where you can post up.
 </p>
 	</div>
 </Accordion>

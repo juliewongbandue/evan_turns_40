@@ -29,13 +29,17 @@
 
   <p class='info'>Here's the loose timing of everything: </p>
   <ul>
-    <li class="info"><b>2PM</b> - Arrive / make final outfit tweaks</li>
-    <li class="info"><b>2:30PM-6PM</b> - Drinks, music, dancing, talk about me, or how much you're actually there for Julie.</li>
-    <li class="info"><b>6:30PM</b> - The bar opens to regular service. You don't have to leave, but I will be going to dinner. I suggest you do the same!</li>
+    <li class="info"><b>2PM</b> - Arrive / make final outfit tweaks
+    </li>
+    <li class="info"><b>2:30PM-6PM</b> - Drinks, DJ, dancing, live music, talk about me, or how much
+      you're actually there for Julie.
+    </li>
+    <li class="info"><b>6:30PM</b> - The bar opens to regular service. You don't have to leave, but
+      I will be going to dinner. I suggest you do the same!
+    </li>
   </ul>
   <p class="info">
-    <b>Dress code:</b> I want to see you in your New York best. Whatever
-    that means to you.
+    <b>Dress code:</b> I want to see you in your New York best. Whatever that means to you.
   </p>
     <p class="info">
     <b>Vibe:</b> Pete's is very casual, laid back. There will be outdoor space.
@@ -58,8 +62,9 @@
   <h1>Early Birds</h1>
   <h2>Friday, September 12th, 2025</h2>
   <p class='info'>
-    If you're in town on Friday and want to start celebrating early, I will almost definitely
-    be doing improv at Magnet Theater with The Friday Night Sh*w. 9pm!
+    If you're in town on Friday and want to start celebrating early, I will be doing improv at
+    Magnet Theater with <a href="https://magnettheater.com/show/59913/" target="_blank">The Friday
+    Night Sh*w</a>. 9pm!
   </p>
 </div>
 
