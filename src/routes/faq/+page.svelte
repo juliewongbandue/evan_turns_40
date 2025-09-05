@@ -152,8 +152,9 @@
 	<span slot="head">Will this conflict with DIRT softball?</span>
 	<div slot="details">
 <p class="content">
-  Probably, but it goes until ~6:30pm, so, after we've won, please shower at Dom's and then come on
-  over.
+  Not if everyone plans to shower at Dom's. Game is at 1pm, party starts around 2pm. So a quick
+  shower at Dom's will get folks feeling fresh and at the party in no time. Or you can do that at
+  home. We'll be going til ~6:30pm.
 </p>
 	</div>
 </Accordion>
