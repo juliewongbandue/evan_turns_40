@@ -20,7 +20,7 @@ import Button from '../lib/button.svelte';
         Brooklyn, NY 11211
         <br/>
         </a>
-        2:00PM-6:00PM
+        2:00PM-6:30PM
       </p>
       <Button href='/rsvp'>RSVP</Button>
     </div>
