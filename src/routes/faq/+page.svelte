@@ -190,6 +190,21 @@
 </Accordion>
 <!-- question -->
 <Accordion>
+	<span slot="head">Where should we eat?</span>
+	<div slot="details">
+<p class="content">
+  Here are some nearby places I like!
+</p>
+<p class="content">
+  Fast: Xi'an Famous Foods, Upside Pizza, Anthony & Son Panini Shop, Bis Bas, Oasis Falafel
+</p>
+<p class="content">
+  Sit down: Dar 525, Beco, MáLa Project, Scalino GP, Veselka, Kings County Imperial, Wanpaku, Calexico, Three Decker Diner
+</p>
+	</div>
+</Accordion>
+<!-- question -->
+<Accordion>
 	<span slot="head">What's up with the after party?</span>
 	<div slot="details">
 <p class="content">
