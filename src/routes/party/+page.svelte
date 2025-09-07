@@ -52,9 +52,14 @@
 <div class="body">
   <h2>The After Party</h2>
   <p class='info'>
-    After a break for dinner, I'll be posting up somewhere in Greenpoint/Williamsburg
-    for the rest of the night. Details to come.
+    After a break for dinner, I'll be posting up at <a href="https://maps.app.goo.gl/6qLLtVTVc4kLUo16A"
+    target="_blank">The Gutter</a> in Williamsburg. It's a bar with bowling and a pool table. If we
+    last long enough, there may even be dancing in the back room. <strong>I should get there by
+    8:30/9:00PM </strong>, but come wherever!
   </p>
+    <div class="map-container">
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3023.788752289345!2d-73.95794992383402!3d40.722666671392105!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259433e189c85%3A0x6ac76a024af4bae5!2sThe%20Gutter!5e0!3m2!1sen!2sus!4v1757267800158!5m2!1sen!2sus" width="330" height="265" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </div>
 </div>
 
 <!-- ///// -->

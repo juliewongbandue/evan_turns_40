@@ -208,8 +208,9 @@
 	<span slot="head">What's up with the after party?</span>
 	<div slot="details">
 <p class="content">
-  Less planned. After dinner. I will probably just pick a bar, maybe even one with dancing, and tell
-  people to meet me there. If you are busy during the day, this is something to do that night.
+  Less planned. After dinner. Not private. I'll just be posting up at <a href="https://maps.app.goo.gl/6qLLtVTVc4kLUo16A"
+    target="_blank">The Gutter</a> in Williamsburg starting around 8:30/9:00pm. If you can't make
+    the daytime party, this is move! Bowling, pool, good company. Let's go.
 </p>
 	</div>
 </Accordion>
